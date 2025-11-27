@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminho Waldorf</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        waldorf: {
+                            primary: '#2980b9',   /* Blue */
+                            secondary: '#5DADE2', /* Light Blue */
+                            accent: '#f1c40f',    /* Yellow/Gold */
+                            green: '#27ae60',     /* Nature Green */
+                            dark: '#2c3e50',      /* Text */
+                            light: '#f9f9f9',     /* Background */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        hand: ['Patrick Hand', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2980b9; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #1c5980; 
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+<body class="bg-waldorf-light text-waldorf-dark font-sans antialiased">
+    <div id="root"></div>
+</body>
+</html>
