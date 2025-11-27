@@ -1,5 +1,5 @@
 import { Service, Testimonial, TeamMember, NavItem, ComparisonItem, StageItem } from './types';
-import { Hammer, Sprout, Scissors, Users, GraduationCap, Home, Heart, Brain, Hand, BookOpen, Clock, Activity, Palette, Smile } from 'lucide-react';
+import { Hammer, Sprout, Scissors, Users, GraduationCap, Home, Heart, Brain, Hand, BookOpen, Clock, Activity, Palette, Smile, Baby, Sun, Zap } from 'lucide-react';
 
 export const NAV_ITEMS: NavItem[] = [
     { label: 'Início', path: '/' },
@@ -31,7 +31,7 @@ export const SERVICES: Service[] = [
         title: 'Trabalhos Manuais',
         description: 'Tricô, crochê, costura e modelagem para desenvolvimento cognitivo e matemático.',
         details: 'A neurociência comprova o que a pedagogia Waldorf pratica há décadas: mãos ágeis criam mentes ágeis. O trabalho manual desenvolve o pensamento lógico, a contagem rítmica e a geometria prática. Além disso, atividades como tricotar acalmam o sistema nervoso, melhoram a concentração e preparam o cérebro para tarefas intelectuais complexas.',
-        image: 'https://images.unsplash.com/photo-1603651982642-3cdcb241e343?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.unsplash.com/photo-1517260739337-6799d2ff9ee3?auto=format&fit=crop&q=80&w=800',
         icon: Scissors
     },
     {
@@ -324,23 +324,23 @@ export const DEVELOPMENT_STAGES: StageItem[] = [
         title: "Primeiro Setênio",
         focus: "O QUERER (Fazer)",
         description: "A criança é um órgão sensorial. Aprende por imitação. O foco é desenvolver o corpo físico, a coordenação e a vontade através do brincar livre.",
-        icon: Hand,
-        color: "bg-red-50 text-red-600 border-red-200"
+        icon: Baby,
+        color: "border-waldorf-green"
     },
     {
         age: "7 a 14 anos",
         title: "Segundo Setênio",
-        focus: "O SENTIR (Coração)",
-        description: "A alfabetização dos sentimentos. O professor é a autoridade amada. Todo conteúdo acadêmico entra através da beleza e da arte.",
-        icon: Heart,
-        color: "bg-yellow-50 text-yellow-600 border-yellow-200"
+        focus: "O SENTIR (Sentir)",
+        description: "O mundo é belo. Aprendizado através da autoridade amada e da imaginação. Artes, música e histórias moldam o caráter e as emoções.",
+        icon: Sun,
+        color: "border-waldorf-accent"
     },
     {
         age: "14 a 21 anos",
         title: "Terceiro Setênio",
-        focus: "O PENSAR (Cabeça)",
-        description: "Nascimento do julgamento próprio. Busca pela verdade. O jovem precisa de tutores que sejam mestres em suas áreas para desafiar seu intelecto.",
-        icon: Brain,
-        color: "bg-blue-50 text-blue-600 border-blue-200"
+        focus: "O PENSAR (Pensar)",
+        description: "O mundo é verdadeiro. Despertar do pensamento crítico, julgamento próprio e busca pela verdade. Preparação intelectual rigorosa.",
+        icon: Zap,
+        color: "border-waldorf-primary"
     }
 ];
