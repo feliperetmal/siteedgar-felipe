@@ -1,3 +1,4 @@
+
 import { Service, Testimonial, TeamMember, NavItem, ComparisonItem, StageItem } from './types';
 import { Hammer, Sprout, Scissors, Users, GraduationCap, Home, Heart, Brain, Hand, BookOpen, Clock, Activity, Palette, Smile, Baby, Sun, Zap } from 'lucide-react';
 
@@ -31,7 +32,7 @@ export const SERVICES: Service[] = [
         title: 'Trabalhos Manuais',
         description: 'Tricô, crochê, costura e modelagem para desenvolvimento cognitivo e matemático.',
         details: 'A neurociência comprova o que a pedagogia Waldorf pratica há décadas: mãos ágeis criam mentes ágeis. O trabalho manual desenvolve o pensamento lógico, a contagem rítmica e a geometria prática. Além disso, atividades como tricotar acalmam o sistema nervoso, melhoram a concentração e preparam o cérebro para tarefas intelectuais complexas.',
-        image: 'https://images.unsplash.com/photo-1517260739337-6799d2ff9ee3?auto=format&fit=crop&q=80&w=800',
+        image: 'https://shirleyvitorinopsicologa.com.br/wp-content/uploads/2020/01/neuroci%C3%AAncia-1.jpg',
         icon: Scissors
     },
     {
@@ -39,7 +40,7 @@ export const SERVICES: Service[] = [
         title: 'Escola de Pais',
         description: 'Integração real entre família e escola para criar uma comunidade forte e coerente.',
         details: 'Criamos pontes duradouras entre o ambiente doméstico e o escolar. Oferecemos palestras, vivências e rodas de conversa que ajudam os pais a compreenderem as fases do desenvolvimento infantil. Isso alinha valores, melhora a rotina de sono e alimentação em casa e fortalece a rede de apoio da escola, reduzindo conflitos.',
-        image: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800',
         icon: Users
     },
     {
@@ -55,7 +56,7 @@ export const SERVICES: Service[] = [
         title: 'Arquitetura & Ambiente',
         description: 'Transformação de espaços em salas acolhedoras que reduzem o estresse e favorecem o foco.',
         details: 'O ambiente educa tanto quanto o professor. Ajudamos a repensar a estética da escola: o uso de cores terapêuticas, iluminação adequada, materiais naturais e a disposição do mobiliário. Criamos espaços que "respiram" e acolhem, reduzindo a agitação motora e promovendo um estado de atenção relaxada nos alunos.',
-        image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800',
+        image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800',
         icon: Home
     }
 ];

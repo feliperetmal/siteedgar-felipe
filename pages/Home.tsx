@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, MessageCircle } from 'lucide-react';
@@ -78,30 +79,6 @@ const Home: React.FC = () => {
                         <Link to="/servicos" className="inline-block border-b-2 border-waldorf-primary text-waldorf-primary font-bold text-lg pb-1 hover:text-waldorf-secondary hover:border-waldorf-secondary transition-all">
                             Ver todos os 6 serviços disponíveis
                         </Link>
-                    </div>
-                </div>
-            </section>
-
-            {/* Stats / Trust */}
-            <section className="py-20 bg-gradient-to-br from-waldorf-primary to-blue-600 text-white clip-path-slant">
-                <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-                        <div className="p-6 rounded-2xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors transform hover:-translate-y-1">
-                            <div className="text-5xl font-bold font-hand mb-2 text-waldorf-accent">20+</div>
-                            <div className="text-sm uppercase tracking-wider opacity-90">Escolas Parceiras</div>
-                        </div>
-                        <div className="p-6 rounded-2xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors transform hover:-translate-y-1">
-                            <div className="text-5xl font-bold font-hand mb-2 text-waldorf-accent">40%</div>
-                            <div className="text-sm uppercase tracking-wider opacity-90">Menos Estresse</div>
-                        </div>
-                        <div className="p-6 rounded-2xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors transform hover:-translate-y-1">
-                            <div className="text-5xl font-bold font-hand mb-2 text-waldorf-accent">500+</div>
-                            <div className="text-sm uppercase tracking-wider opacity-90">Educadores Treinados</div>
-                        </div>
-                        <div className="p-6 rounded-2xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors transform hover:-translate-y-1">
-                            <div className="text-5xl font-bold font-hand mb-2 text-waldorf-accent">100%</div>
-                            <div className="text-sm uppercase tracking-wider opacity-90">Personalizado</div>
-                        </div>
                     </div>
                 </div>
             </section>

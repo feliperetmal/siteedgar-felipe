@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { TEAM } from '../constants';
 import { Linkedin, Instagram } from 'lucide-react';
@@ -60,13 +61,6 @@ const About: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
                     {TEAM.map((member, index) => (
                         <div key={index} className="bg-white rounded-3xl p-8 shadow-xl flex flex-col md:flex-row gap-8 items-center md:items-start hover:-translate-y-2 transition-transform duration-300">
-                            <div className="w-32 h-32 flex-shrink-0">
-                                <img 
-                                    src={member.image} 
-                                    alt={member.name} 
-                                    className="w-full h-full rounded-full object-cover border-4 border-waldorf-secondary shadow-md"
-                                />
-                            </div>
                             <div className="text-center md:text-left">
                                 <h3 className="text-2xl font-bold text-waldorf-primary">{member.name}</h3>
                                 <span className="text-waldorf-accent font-semibold text-sm uppercase tracking-wider block mb-4">{member.role}</span>
